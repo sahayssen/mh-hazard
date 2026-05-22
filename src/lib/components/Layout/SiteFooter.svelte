@@ -334,7 +334,7 @@ USAGE EXAMPLE:
 
   /* Bottom copyright bar */
   .footer-bottom {
-    background-color: var(--color-cuny-blue-dark);
+    background-color: #757474;
     padding: var(--spacing-sm) var(--spacing-md);
     text-align: center;
   }
