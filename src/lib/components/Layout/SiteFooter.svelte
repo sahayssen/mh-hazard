@@ -246,7 +246,7 @@ USAGE EXAMPLE:
   }
 
   .footer-main {
-    background-color: var(--color-cuny-blue-dark);
+    background-color:  #757474;
     padding: var(--spacing-xl) var(--spacing-md);
   }
 
