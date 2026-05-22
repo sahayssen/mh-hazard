@@ -10,6 +10,7 @@ DropdownInput.svelte — A styled select dropdown input.
     placeholder = 'Choose an option…',
     onchange = () => {},
   } = $props();
+
 </script>
 
 <div class="dropdown-input">
@@ -70,7 +71,7 @@ DropdownInput.svelte — A styled select dropdown input.
     font-size: var(--font-size-base);
     line-height: var(--leading-normal);
     color: var(--color-text);
-    background-color: var(--color-white);
+    background-color: #FFFFFF;
     border: var(--border-width-thin) solid var(--color-border);
     border-radius: var(--border-radius-sm);
     padding: var(--spacing-xs) var(--spacing-lg) var(--spacing-xs)

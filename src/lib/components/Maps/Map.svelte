@@ -38,6 +38,9 @@ USAGE EXAMPLE:
     longitude = -74.006, // Map center longitude (default: NYC)
     latitude = 40.7128, // Map center latitude
     zoom = 10, // Initial zoom level (0–22)
+    maxZoomOut = null, // Furthest zoom-out level allowed (maps to MapLibre minZoom)
+    maxZoom = null, // Maximum zoom-in level allowed
+    lockCenter = false, // Prevent panning away from the configured center
     theme = 'liberty', // Basemap theme: 'liberty' | 'bright' | 'positron' | 'fiord' | 'dark'
     interactive = true, // Allow panning and zooming
     border = false, // Show an accent border around the map
@@ -93,6 +96,8 @@ USAGE EXAMPLE:
           style: styleUrl,
           center: [longitude, latitude],
           zoom,
+          minZoom: typeof maxZoomOut === 'number' ? maxZoomOut : undefined,
+          maxZoom: typeof maxZoom === 'number' ? maxZoom : undefined,
           interactive,
           attributionControl: credit ? false : { compact: true },
         });
@@ -143,6 +148,13 @@ USAGE EXAMPLE:
     appliedStyleUrl = url;
     mapReady = false;
     map.setStyle(url);
+  });
+
+  // Keep zoom constraints in sync when props change
+  $effect(() => {
+    if (!map) return;
+    map.setMinZoom(typeof maxZoomOut === 'number' ? maxZoomOut : 6);
+    map.setMaxZoom(typeof maxZoom === 'number' ? maxZoom : 100);
   });
 </script>
 
