@@ -14,6 +14,7 @@ This is your page!
   import DropdownInput from '$lib/components/Forms/DropdownInput.svelte';
   import Legend from '$lib/components/Maps/Legend.svelte';
   import SplashHeader from '$lib/components/Article/SplashHeader.svelte';
+  import MHCostChart from '$lib/components/Data/MHCostChart.svelte';
 
   let { data } = $props();
   const mhcoms = data.mhcoms;
@@ -79,7 +80,7 @@ When the power went out in ViewPoint RV & Golf Resort, resident Kath Noble, 80, 
 “We still have a lot of issues,” said Noble. “It's actually getting hotter every summer and it's getting hotter earlier.” 
 </p>
 <p>
-From the 2025 Texas floods to the Palisades fires, climate change has already decimated communities across the US. In the next thirty years, climate research company First Street estimates that climate change will wipe out over a trillion dollars in home values. 
+From the 2025 Texas floods to the Palisades fires, climate change has already decimated communities across the US. In the next thirty years, climate research company <a href="https://impact.wharton.upenn.edu/homepage/climate-change-to-wipe-away-1-5-trillion-in-u-s-home-values-study-says/">First Street</a> estimates that climate change will wipe out over a trillion dollars in home values. 
 </p>
 <p>
 But while the role of climate change in the housing affordability crisis has gained increasing recognition, the plight of manufactured and mobile home residents, like Noble, is often ignored. The average income of a manufactured housing resident is $35,000. According to the Manufactured Housing Institute, that’s less than half of the income for residents in site built homes. Yet for a mix of economic, geographic, and structural reasons, these residents bear the  greatest cost of the US climate crisis. 
@@ -88,17 +89,10 @@ But while the role of climate change in the housing affordability crisis has gai
 Manufactured housing stock tends to be built in regions with elevated risk of the climate disaster and in historically hotter areas in the US. Climate resiliency in manufactured housing stock can also vary based on the age of the structure. Moreover, residents often come from vulnerable demographics. The corporate ownership of manufactured housing communities further limits their ability for recourse in the face of disaster. 
 </p>
 <p>
-The current stock of manufactured homes have evolved beyond the stereotypical trailer most commonly associated with the term ‘mobile home.’ For fifty years, these factory-built homes have been constructed to the Housing and Urban Development code.  Manufactured housing is cheaper than site built homes and dubbed  “largest form of unsubsidized affordable housing in the U.S.” by  the Manufactured Housing Institute.  Around 22 million Americans live in manufactured housing communities, also called mobile home parks. In these communities, it’s common for residents to own their housing structure but rent the land it sits on. These residents are often older and low income. 
+The current stock of manufactured homes have evolved beyond the stereotypical trailer most commonly associated with the term ‘mobile home.’ For fifty years, these factory-built homes have been constructed to the Housing and Urban Development code.  Manufactured housing is cheaper than site built homes <a href="https://www.manufacturedhousing.org/about-manufactured-homes/">and dubbed</a> “largest form of unsubsidized affordable housing in the U.S.” by the <a href="https://www.mtmhrv.org/wp-content/uploads/2023/06/Information-about-Manufactured-Housing.pdf"> Manufactured Housing Institute</a>.  Around <a href="https://www.jec.senate.gov/public/index.cfm/democrats/2025/12/senator-hassan-presses-corporate-owners-of-mobile-home-communities-for-answers-on-affordability-and-resident-living-conditions">22 million Americans</a> live in manufactured housing communities, also called mobile home parks. In these communities, it’s common for residents to own their housing structure but rent the land it sits on. These residents are often <a href="https://www.consumerfinance.gov/data-research/research-reports/data-spotlight-profiles-of-older-adults-living-in-mobile-homes/full-report/">older and low income</a>. 
 </p>
-<p>
-Heat-related issues like the kind Noble experienced are a fact of life for many mobile home residents, especially in the southern and western US. In Maricopa County, where Noble lives, a quarter of heat related deaths in 2024 occurred in mobile home and RV parks, despite the fact that they only make up 5% of housing stock. As temperatures tick up, the issue becomes increasingly pressing. 
-</p>
-<p>
-Manufactured homes are particularly vulnerable to heat. Some older homes have less insulation and low-capacity electrical systems that cannot adequately cool the home. Low-income residents may also avoid turning on their AC to save money and generally lack the same financial resources to  update their home. At the community level, infrastructure at mobile home parks can be old and neglected, kept under the purview of a private landlord. 
-</p>
-<p>
-Communities’ corporate owners also sometimes make rules that leave residents vulnerable. In 2024, the Arizona Association for Manufactured Homeowners, where Noble currently serves as President, advocated for a bill making it illegal for landlords to ban residents from installing air conditioners for aesthetic reasons. The bill ultimately passed. 
-</p>
+
+
 <div class="hero-row">
 <Legend 
  title="Risk Level"
@@ -177,7 +171,16 @@ Communities’ corporate owners also sometimes make rules that leave residents v
     />
   </Map>
 <p>
-It’s not just heat. An analysis by the Urban Institute found a greater share of manufactured housing stock was placed in the highest risk census tracts for fires, hurricanes, and tornadoes. Experts note that manufactured housing communities are disproportionately rural and, due to ongoing stigma, can be unfairly zoned out of less climate vulnerable areas. Per a 2018report from the National Consumer Law Center  27 states have protections for manufactured homes against discriminatory zoning practices. Only seven say that manufactured housing cannot be excluded from districts where single family homes are being built. 
+Heat-related issues like the kind Noble experienced are a <a href="https://heatmap.news/adaptation/manufactured-homes-heat">fact of life</a> for many mobile home residents, especially in the southern and western US. In <a href="https://www.maricopa.gov/ArchiveCenter/ViewFile/Item/5934">Maricopa County</a>, where Noble lives, a quarter of heat related deaths in 2024 occurred in mobile home and RV parks, despite the fact that they only make up 5% of housing stock. As temperatures tick up, the issue becomes increasingly pressing. 
+</p>
+<p>
+Manufactured homes are particularly vulnerable to heat. Some older homes have less insulation and <a href="https://journals.sagepub.com/doi/epub/10.1177/00420980251351241">low-capacity</a> electrical systems that cannot adequately cool the home. Low-income residents may also avoid turning on their AC to save money and generally lack the same financial resources to  update their home. At the community level, infrastructure at mobile home parks can be old and neglected, kept under the purview of a private landlord. 
+</p>
+<p>
+Communities’ corporate owners also sometimes make rules that leave residents vulnerable. In 2024, the Arizona Association for Manufactured Homeowners, where Noble currently serves as President, advocated for a bill making it <a href="https://apnews.com/article/arizona-mobile-home-legislation-c80b97c12ad4272d75467d331535c53f"> illegal for landlords</a> to ban residents from installing air conditioners for aesthetic reasons. The bill ultimately passed. 
+</p>
+<p>
+It’s not just heat. An analysis by the <a href="https://www.urban.org/sites/default/files/2025-02/Building_Climate-Resilient_Manufactured_Housing_Stock.pdf">Urban Institute</a> found a greater share of manufactured housing stock was placed in the highest risk census tracts for fires, hurricanes, and tornadoes. Experts note that manufactured housing communities are disproportionately rural and, due to ongoing stigma, can be unfairly zoned out of less climate vulnerable areas. <a href="https://www.nclc.org/wp-content/uploads/2022/09/advocating_at_the_local_level-1.pdf">Per a 2018 report</a> from the National Consumer Law Center  27 states have protections for manufactured homes against discriminatory zoning practices. Only seven say that manufactured housing cannot be excluded from districts where single family homes are being built. 
 </p>
 <p>
 When storms Helen and Milton hit Florida within weeks of each other in 2024, the Colony Cove mobile home community was caught in the crosshairs. The community is in Ellenton, Florida, which ranks in the highest vulnerability for sea level rise and coastal flooding, according to the U.S. Climate Vulnerability Index. 
@@ -189,12 +192,14 @@ Many residents lost carports and had trees fall on their homes. John Calabrese, 
 “It was kind of a one-two punch that really devastated not just our community, but this whole area” he said. 
 </p>
 <p>
-An aging supply of mobile homes pose a significant threat to climate resiliency. Homes built before the 1976 implementation of the Housing and Urban Development code are often more affordable but lack the insulation to protect residents and withstand extreme weather.  They can also be in generally poorer condition because of their age. The Urban Institute estimates that there are between 1.24 million and 1.35 million of these mobile homes. 
+An aging supply of mobile homes pose a significant threat to climate resiliency. Homes built before the 1976 implementation of the <a href="https://www.urban.org/sites/default/files/2025-02/Building_Climate-Resilient_Manufactured_Housing_Stock.pdf">Housing and Urban Development code</a> are often more affordable but lack the insulation to protect residents and withstand extreme weather.  They can also be in generally poorer condition because of their age. The Urban Institute estimates that there are between 1.24 million and 1.35 million of these mobile homes. 
 </p>
+<MHCostChart width={760} height={320} />
+<br/>
 <p>
 Of the residents in unrepairable homes, Calabrese recalls that many left the community altogether. 
 “There were many that just turned the titles to their homes into the owner of the community because they had no way to fix it,” he said. “I know a lot of them got taken in by family.”
-Experts and policy makers have touted manufactured housing as a solution to the affordable housing crisis. The 21st Century Road to Housing Act, which is currently awaiting a vote in the House, would remove the requirement for manufactured homes to be built on a permanent chassis. If the law passes, the change would  open up new opportunities to build manufactured housing. 
+Experts and policy makers have touted manufactured housing as a solution to the affordable housing crisis. The 21st Century Road to Housing Act, which is currently awaiting a vote in the House, would remove the requirement for manufactured homes to be built on a permanent chassis. If the law passes, <a href="https://fas.org/publication/manufactured-home-chassis-requirement/">the change would</a> open up new opportunities to build manufactured housing. 
 </p>
 <p>
 However, the need to shore up housing supply has to come with sustainability in mind. In the long run, homes that can be easily razed or rendered unlivable by a changing climate won’t offer the relief needed to combat the affordability crisis. 

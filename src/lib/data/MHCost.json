@@ -1,0 +1,98 @@
+[
+  {
+    "Year": 2025,
+    "United States": 131200,
+    "Northeast": 116000,
+    "Midwest": 128900,
+    "South": 131200,
+    "West": 142100
+  },
+  {
+    "Year": 2024,
+    "United States": 122700,
+    "Northeast": 128100,
+    "Midwest": 107300,
+    "South": 121200,
+    "West": 150300
+  },
+  {
+    "Year": 2023,
+    "United States": 126600,
+    "Northeast": 122600,
+    "Midwest": 116800,
+    "South": 125100,
+    "West": 149600
+  },
+  {
+    "Year": 2022,
+    "United States": 125200,
+    "Northeast": 119200,
+    "Midwest": 113600,
+    "South": 126000,
+    "West": 138400
+  },
+  {
+    "Year": 2021,
+    "United States": 111900,
+    "Northeast": 100900,
+    "Midwest": 107300,
+    "South": 110700,
+    "West": 128800
+  },
+  {
+    "Year": 2020,
+    "United States": 92600,
+    "Northeast": 85600,
+    "Midwest": 81000,
+    "South": 92600,
+    "West": 115400
+  },
+  {
+    "Year": 2019,
+    "United States": 81600,
+    "Northeast": 79200,
+    "Midwest": 73400,
+    "South": 79500,
+    "West": 101400
+  },
+  {
+    "Year": 2018,
+    "United States": 79900,
+    "Northeast": 81400,
+    "Midwest": 74100,
+    "South": 77100,
+    "West": 99300
+  },
+  {
+    "Year": 2017,
+    "United States": 71800,
+    "Northeast": 75300,
+    "Midwest": 68100,
+    "South": 65800,
+    "West": 114500
+  },
+  {
+    "Year": 2016,
+    "United States": 71700,
+    "Northeast": 70800,
+    "Midwest": 58900,
+    "South": 72100,
+    "West": 89200
+  },
+  {
+    "Year": 2015,
+    "United States": 68000,
+    "Northeast": 79000,
+    "Midwest": 61100,
+    "South": 63200,
+    "West": 96100
+  },
+  {
+    "Year": 2014,
+    "United States": 64200,
+    "Northeast": 80500,
+    "Midwest": 61600,
+    "South": 59100,
+    "West": 84800
+  }
+]
