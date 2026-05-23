@@ -15,9 +15,10 @@ let {kicker, headline, deck, pubDate} = $props();
   </div>
 
 <style>
+
 .kicker {
       display: block;
-      font-family: var(--font-sans);
+      font-family: var(--font-serif);
       font-size: var(--font-size-xs);
       text-transform: uppercase;
       letter-spacing: 0.15em;
@@ -35,7 +36,7 @@ let {kicker, headline, deck, pubDate} = $props();
     .story-header h1 {
       display: block;
       color: var(--color-btn-color);
-      font-family: var(--font-headline);
+      font-family: var(--font-serif);
       font-size: var(--font-size-6xl);
       font-weight: 400;
       line-height: var(--leading-tight);

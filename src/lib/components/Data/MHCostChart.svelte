@@ -7,10 +7,10 @@
     regions = ['Northeast', 'Midwest', 'South', 'West'],
     strokeWidth = 2,
     colors = ['#c43e00', '#1f77b4', '#2ca02c', '#9467bd'],
-    title = 'Average Cost of Manufactured House by Region',
+    title = 'Average Cost of Manufactured House by US Region from 2014 to 2025',
   } = $props();
 
-  const padding = { top: 20, right: 20, bottom: 40, left: 100 };
+  const padding = { top: 0, right: 20, bottom: 40, left: 100 };
   const innerWidth = width - padding.left - padding.right;
   const innerHeight = height - padding.top - padding.bottom;
 
@@ -69,7 +69,7 @@
 <!-- title and region buttons (click to toggle visibility) -->
 <div class="chart-card">
   {#if title}
-    <h3 class="chart-title">{title}</h3>
+    <h3 class="chart-title"><strong>{title}</strong></h3>
     <p class="chart-subheading">Click to limit visible regions.</p>
   {/if}
   <div class="legend-buttons">
@@ -156,7 +156,7 @@
     opacity: 0.45;
   }
   .chart-title {
-    padding: 1rem 0 0 0;
+    margin: -0.35rem 0 0 0;
     font-size: 22px;
     color: #111;
   }
@@ -168,6 +168,8 @@
   }
   .chart-card {
     background: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
     padding: .0rem 14px 14px 14px;
     width: 100%;
   }

@@ -804,9 +804,8 @@ USAGE EXAMPLE:
 
   .legend {
     width: 100%;
-    max-width: 52rem;
-    background: var(--color-white);
-    padding: var(--spacing-xs) 0;
+    max-width: 30rem;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-xs);

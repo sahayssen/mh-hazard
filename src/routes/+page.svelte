@@ -96,9 +96,10 @@ Manufactured housing stock tends to be built in regions with elevated risk of th
 <p>
 The current stock of manufactured homes have evolved beyond the stereotypical trailer most commonly associated with the term ‘mobile home.’ For fifty years, these factory-built homes have been constructed to the Housing and Urban Development code.  Manufactured housing is cheaper than site built homes <a href="https://www.manufacturedhousing.org/about-manufactured-homes/">and dubbed</a> “largest form of unsubsidized affordable housing in the U.S.” by the <a href="https://www.mtmhrv.org/wp-content/uploads/2023/06/Information-about-Manufactured-Housing.pdf"> Manufactured Housing Institute</a>.  Around <a href="https://www.jec.senate.gov/public/index.cfm/democrats/2025/12/senator-hassan-presses-corporate-owners-of-mobile-home-communities-for-answers-on-affordability-and-resident-living-conditions">22 million Americans</a> live in manufactured housing communities, also called mobile home parks. In these communities, it’s common for residents to own their housing structure but rent the land it sits on. These residents are often <a href="https://www.consumerfinance.gov/data-research/research-reports/data-spotlight-profiles-of-older-adults-living-in-mobile-homes/full-report/">older and low income</a>. 
 </p>
-
-
-<div class="hero-row">
+<div style="border: 4px solid black; padding: 1rem;background-color:#ffffff;"> 
+<h3><strong>Private Equity Owned Manufactured Housing Communities By National Risk Index </strong></h3>
+<h4> Explore the map and click on a dot to learn more about the community.</h4>
+<div class="hero-row" style="margin-left: 1rem;">
 <Legend 
  title="Risk Level"
  mode="categorical"
@@ -110,7 +111,6 @@ The current stock of manufactured homes have evolved beyond the stereotypical tr
     items={proportionalLegendItems}
 />
 </div>
-
 <br/>
 <div class="hero-row">
 <DropdownInput 
@@ -175,6 +175,8 @@ The current stock of manufactured homes have evolved beyond the stereotypical tr
   }}
     />
   </Map>
+</div> 
+<br/>
 <p>
 Heat-related issues like the kind Noble experienced are a <a href="https://heatmap.news/adaptation/manufactured-homes-heat">fact of life</a> for many mobile home residents, especially in the southern and western US. In <a href="https://www.maricopa.gov/ArchiveCenter/ViewFile/Item/5934">Maricopa County</a>, where Noble lives, a quarter of heat related deaths in 2024 occurred in mobile home and RV parks, despite the fact that they only make up 5% of housing stock. As temperatures tick up, the issue becomes increasingly pressing. 
 </p>
@@ -224,8 +226,9 @@ The data for the map combined 2025 FEMA National Risk Index with the Private Equ
 
   .hero-row {
     width: 100%;
+    margin: 0 auto;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 0.5rem;
   
