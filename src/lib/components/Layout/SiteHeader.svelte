@@ -16,13 +16,18 @@ let menuOpen = $state(false);
 <style lang="scss">
   @use '../../styles' as *;
   .logo {
-    margin: 0 auto;
-    width: 120%;
-    max-width: 40rem;
-    height: 4rem;
-    align-items: center;
+    margin-left: 18rem;
+    width: auto;
+    max-width: 50rem;
+    height: auto;
+    padding: 2rem 2rem;
+  }
+
+  .logo img {
     display: block;
-    padding: 2rem;
+    max-height: 40rem;
+    width: auto;
+    max-width: 100%;
   }
 
   .site-header {
@@ -33,12 +38,12 @@ let menuOpen = $state(false);
   /* Full-width blue background with animated dark-to-light gradient */
   .masthead-wrapper {
     background: #757474;
-    height: 13rem;
+    height: 17rem;
   }
 
   /* Compact Masthead - Mobile: centered */
   .masthead {
-    align-items: center;
+    display: flex;
     max-width: var(--max-width-wide);
   }
 </style>

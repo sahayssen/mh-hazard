@@ -4,6 +4,7 @@ This is your page!
 -->
 <script>
   // Import all the news furniture components
+  import { base } from '$app/paths';
   import ArticleHeader from '$lib/components/Article/ArticleHeader.svelte';
   import ArticleBody from '$lib/components/Article/ArticleBody.svelte';
   import Blockquote from '$lib/components/Article/Blockquote.svelte';
@@ -15,7 +16,7 @@ This is your page!
   import Legend from '$lib/components/Maps/Legend.svelte';
   import SplashHeader from '$lib/components/Article/SplashHeader.svelte';
   import MHCostChart from '$lib/components/Data/MHCostChart.svelte';
-
+  import MethodologyBox from '$lib/components/Article/MethodologyBox.svelte';
   let { data } = $props();
   const mhcoms = data.mhcoms;
   let headline = "Hello World";
@@ -71,8 +72,12 @@ This is your page!
     headline= "Manufactured Housing Residents Are Bearing The Brunt of Climate Change"
     pubDate="Sophie Hayssen | May 22, 2026"
 />
+<img src={`${base}/photos/manhousing.jpg`}>
+<div class="caption">
+<p> Photo by <a href="https://unsplash.com/@prphotography262?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Peter Robbins</a> on <a href="https://unsplash.com/photos/a-group-of-shacks-sitting-on-top-of-a-lush-green-field-sgbEtzBpLHQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p> 
+</div>
+<br/>
 <ArticleBody>
-
 <p>
 When the power went out in ViewPoint RV & Golf Resort, resident Kath Noble, 80, recalls chaos. Food spoiled; residents in the 55-and-over community fell in the darkness; some had to be transferred to the hospital for heat-related illness. The outage came in summer 2023 when temperatures in Arizona stayed above 110 degrees for 54 days straight. 
 </p>
@@ -207,11 +212,12 @@ However, the need to shore up housing supply has to come with sustainability in 
 <p>
 “I am very worried that in the rush to increase housing supply at all costs,” said Andrew Rumbach, a researcher at The Urban Institute. “If we're putting that supply in hazard prone areas, we're sort of locking in a whole other generation of housing into these disasters. And again, at the end of the day, that's not affordability. That's all that is sort of delaying the costs of housing.” 
 </p>
- 
-
-
-
 </ArticleBody>
+<MethodologyBox>
+<p>
+The data for the map combined 2025 FEMA National Risk Index with the Private Equity Stakeholder Project's <a href="https://pestakeholder.org/pesp-private-equity-manufactured-housing-tracker/">Manufactured Housing Tracker</a>. The line graph used data from the manufactured housing survey from <a href="https://www.census.gov/programs-surveys/mhs/data/latest-data.html">Census.gov</a>. The website was made based on template from Ben Welsh's Coding the News class, taughts at Craig Newmark Graduate School of Journalism at CUNY.
+</p>
+</MethodologyBox>
 </div>
 
 <style>
@@ -224,5 +230,13 @@ However, the need to shore up housing supply has to come with sustainability in 
     margin-bottom: 0.5rem;
   
   }
+.caption {
+  font-size: 12px;
+}
+img{
+  display:block;
+  width: 100%;
+  margin: 0 auto;
+}
 
 </style> 

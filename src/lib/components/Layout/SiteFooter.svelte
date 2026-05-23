@@ -189,40 +189,6 @@ USAGE EXAMPLE:
             {tagline}
           </p>
         </div>
-
-        <!-- Navigation Column -->
-        <div class="footer-col">
-          <h3 class="footer-heading">ABOUT</h3>
-          <nav aria-label="Footer navigation">
-            <ul class="footer-list">
-              {#each aboutLinks as link (link.href)}
-                <li>
-                  <a href={link.href} class="footer-link"
-                    >{link.label.toUpperCase()}</a
-                  >
-                </li>
-              {/each}
-            </ul>
-          </nav>
-        </div>
-
-        <!-- Topics Column -->
-        {#if navLinks.length > 0}
-          <div class="footer-col">
-            <h3 class="footer-heading">TOPICS</h3>
-            <nav aria-label="Footer topics">
-              <ul class="footer-list">
-                {#each navLinks as link (link.href)}
-                  <li>
-                    <a href={link.href} class="footer-link"
-                      >{link.label.toUpperCase()}</a
-                    >
-                  </li>
-                {/each}
-              </ul>
-            </nav>
-          </div>
-        {/if}
       </div>
     </div>
   </div>
