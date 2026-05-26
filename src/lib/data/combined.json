@@ -23058,7 +23058,7 @@
           ]
         },
         "properties": {
-          "FullAddress": "1901 Constitution  Pueblo, CO 81001",
+          "FullAddress": "1901 Constitution Pueblo, CO 81001",
           "CommunityName": "Pueblo Pointe MHC",
           "PropertyID": "CO-Pueblo Pointe MHC-1901",
           "CountyState": "Pueblo, CO",
@@ -23587,7 +23587,7 @@
           ]
         },
         "properties": {
-          "FullAddress": "7115 Belhaven Blvd  Charlotte, NC 28216",
+          "FullAddress": "7115 Belhaven Blvd Charlotte, NC 28216",
           "CommunityName": "Belhaven Estates",
           "PropertyID": "NC-Belhaven Estates-7115",
           "CountyState": "Mecklenburg, NC",
@@ -24691,7 +24691,7 @@
           ]
         },
         "properties": {
-          "FullAddress": "20616 Orting Kapowsin Hwy E , WA 98360",
+          "FullAddress": "20616 Orting Kapowsin Hwy E, WA 98360",
           "CommunityName": "Deer Run Mobile Home Park",
           "PropertyID": "WA-Deer Run Mobile Home Park-20616",
           "CountyState": "Pierce, WA",
@@ -24898,7 +24898,7 @@
           ]
         },
         "properties": {
-          "FullAddress": "4005 19th St NE  Bismarck, ND 58503",
+          "FullAddress": "4005 19th St NE Bismarck, ND 58503",
           "CommunityName": "Hay Creek",
           "PropertyID": "ND-Hay Creek-4005",
           "CountyState": "Burleigh, ND",
@@ -25291,7 +25291,7 @@
         "properties": {
           "FullAddress": "2638 Old State Rd 37 Greenwood, IN 46143",
           "CommunityName": "Oak Meadows",
-          "PropertyID": "IN-Oak Meadows -2638",
+          "PropertyID": "IN-Oak Meadows-2638",
           "CountyState": "Morgan, IN",
           "Risk": "Relatively Low",
           "HousingCompany": "Horizon Land Company",
@@ -26717,7 +26717,7 @@
         "properties": {
           "FullAddress": "4901 S Valley Rd Blue Springs, MO 64015",
           "CommunityName": "Valley View",
-          "PropertyID": "MO-Valley View -4901",
+          "PropertyID": "MO-Valley View-4901",
           "CountyState": "Jackson, MO",
           "Risk": "Relatively High",
           "HousingCompany": "Horizon Land Company",
@@ -29132,7 +29132,7 @@
         "properties": {
           "FullAddress": "305 N Scott Ave Belton, MO 64012",
           "CommunityName": "Meadow View",
-          "PropertyID": "MO-Meadow View -305",
+          "PropertyID": "MO-Meadow View-305",
           "CountyState": "Cass, MO",
           "Risk": "Relatively Low",
           "HousingCompany": "Horizon Land Company",
@@ -30466,7 +30466,7 @@
         "properties": {
           "FullAddress": "6150 Rhones Quarter Rd Tyler, TX 75707",
           "CommunityName": "The Grove at Brookhollow",
-          "PropertyID": "TX-The Grove at Brookhollow -6150",
+          "PropertyID": "TX-The Grove at Brookhollow-6150",
           "CountyState": "Smith, TX",
           "Risk": "Relatively Moderate",
           "HousingCompany": "Horizon Land Company",
@@ -30512,7 +30512,7 @@
         "properties": {
           "FullAddress": "1006 21st Street Brodhead, WI 53520",
           "CommunityName": "Cardinal Crest",
-          "PropertyID": "WI-Cardinal Crest -1006",
+          "PropertyID": "WI-Cardinal Crest-1006",
           "CountyState": "Green, WI",
           "Risk": "Relatively Low",
           "HousingCompany": "RHP Properties (RHP)",
