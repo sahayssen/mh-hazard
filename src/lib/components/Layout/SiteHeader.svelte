@@ -16,11 +16,11 @@ let menuOpen = $state(false);
 <style lang="scss">
   @use '../../styles' as *;
   .logo {
-    margin-left: 18rem;
+    margin: 0;
     width: auto;
     max-width: 50rem;
     height: auto;
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
 
   .logo img {
@@ -45,5 +45,9 @@ let menuOpen = $state(false);
   .masthead {
     display: flex;
     max-width: var(--max-width-wide);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 </style>
