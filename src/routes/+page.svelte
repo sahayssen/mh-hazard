@@ -173,7 +173,7 @@ The current stock of manufactured homes have evolved beyond the stereotypical tr
       }}
   popup={(feature) => {
     const p = feature.properties;
-    return `<strong>${p.CommunityName}</strong><br/>This community is located at ${p.FullAddress} and owned by ${p.PrivateEquityFirm}`;
+    return `<strong>${p.CommunityName} - ${p.Risk} Risk</strong><br/>This community is located at ${p.FullAddress} and owned by ${p.PrivateEquityFirm}. It has ${p.Units} units.`;
   }}
     />
   </Map>
